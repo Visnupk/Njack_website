@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b39e615-0fd1-4cca-bc59-2abcb027e58f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/static/homepage/images/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/static/homepage/images/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/static/homepage/images/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/static/homepage/images/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/static/homepage/images/logo_new.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/static/homepage/images/tcaLFC4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Njack_website.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/Njack_website/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/Njack_website/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/Njack_website/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/Njack_website/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/templates/Njack_website/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homepage/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Njack_website/settings.py" afterPath="$PROJECT_DIR$/Njack_website/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Njack_website/urls.py" afterPath="$PROJECT_DIR$/Njack_website/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/static/homepage/css/homecss.css" afterPath="$PROJECT_DIR$/homepage/static/homepage/css/homecss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" afterPath="$PROJECT_DIR$/homepage/templates/homepage/homepage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage/views.py" afterPath="$PROJECT_DIR$/homepage/views.py" />
-    </list>
+    <list default="true" id="2b39e615-0fd1-4cca-bc59-2abcb027e58f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
