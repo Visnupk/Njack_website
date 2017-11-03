@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+{% load static %}
+<DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>NJACK</title>
-	<link rel="stylesheet" href="css/homecss.css">
-	<script src = "js/homejs.js"></script>
+	<link rel="stylesheet" href="{% static 'homepage/css/homecss.css' %}">
+	<!--<script src = "{% static 'homepage/js' %}"></script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/06d63e6a42.js"></script>
 	<script>
     $(document).ready(function(){
     $(".hamburger").click(function()
@@ -17,6 +19,7 @@
 </head>
 <body>
 
+<div class="background"></div>
 
 <header class="header-main">
   <!--<h1 class="text-center">Slide Menu</h1>-->
@@ -32,38 +35,31 @@
       <li><a href="">Resources</a></li>
       <li><a href="">Contact Us</a></li>
     </ul>
-  
+
     </div>
   </nav>
 </header>
 
 
 <div class = "Intro">
-		<h1> NJACK </h1>
-	</div>
-
-	 <!-- <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>-->
-
-	<div class = "About"></div>
-	<!--<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=250&amp;wkst=1&amp;bgcolor=%23003333&amp;src=6vishnu.pk%40gmail.com&amp;color=%2329527A&amp;ctz=Asia%2FCalcutta" style="border:solid 1px #777" width="250" height="250" frameborder="0" scrolling="no"></iframe>-->
-
-        <!-- Page Content -->
-         <div class="whole" id="about" style="background-color:#F2f2f2">
-            <div class="abt" style="color: white; background-color: 003366; font: 50px calibri; font-weight: 900; padding-top: 10px; padding-bottom: 15px;">
-            </div>
+    <img src="{% static 'homepage/images/tcaLFC4.png' %}" alt="NJACK">
+		</div>
+	<div class = "About">
+         <div class="whole" id="about">
             <div class="container" role="document" style="margin-top:1%;">
               <h2 class="about-head">Njack</h2>
-                <p class = "about-club"> NJACK - Not Just Another Computer science Klub ! The Computer Science Club of IIT Patna ! Founded in August 2011.</p>
+                <p class = "about-club"> NJACK - Not Just Another Computer science Klub ! The Computer Science Club of IIT Patna ! Founded in August 2011.Human-following robot is used to detect human from surrounding and follow the human wherever the robot go.
+First of all, to develop human-following behavior, microcontroller Arduino UNO is used to control the movement of the electric motor. The value sends by GPS module is then read by Arduino UNO. Depending on the value send, some command is executed thus make the motor move according the needed situation. For this we are researching the compatibility of Arduino with the GPS and Bluetooth module and also its functionality. According to the research work done we might need to implement obstacle detection in the robot which will require ultrasonic sensor. The differential wheeled drive method is used on this motor so that the motor also can turn left and right.
+Secondly, human-following robot will be tested on the real life scenario. The robot will be tested outdoors for better precision of the GPS module. This to ensure the robot can perform in a controlled surrounding. Human detection and the human-following behaviors are tested.
+This shows the research activities from the beginning until completion of the project. This is to make sure the outcome of project is achieved in time efficiently.</p>
             </div>
-            <!-- /.container -->
+        </div>
         </div>
 
-        <div class="whole" id="about" style="background-color:#F2f2f2">
-            <div class="abt" style="color: white; background-color: 003366; font: 50px calibri; font-weight: 900; padding-top: 10px; padding-bottom: 15px;">
-            </div>
+        <!--<div class="whole" id="events" >
+
             <div class="container" role="document" style="margin-top:1%;">
               <h2 class="about-head">RECENT</h2>
-               <!-- <hr> -->
                 <div class="container-inner about-us-main" id="about-us">
                     <div class="about-div">
                       <h3>Hackathon</h3>
@@ -78,22 +74,16 @@
                        <p>Open government data Hackathon</p>
                     </div>
                 </div>
-                <!--<hr>-->
-            </div>
-            <!-- /.container -->
-        </div>
+                </div>
+        </div>-->
 
-        <div class="whole" id="about" style="background-color:#F2f2f2">
-            <div class="abt" style="color: white; background-color: 003366; font: 50px calibri; font-weight: 900; padding-top: 10px; padding-bottom: 15px;">
-            </div>
-            <div class="container" role="document" style="margin-top:1%;">
-              <h2 class="about-head">Follow Us</h2>
-               
-            </div>
-            <div class="social">
-             <a href="https://www.facebook.com/njack.iitp/"><img src="../images/facebook.png" alt="Facebook"></a>
-             <a href=""><img src="" alt= "Twitter"></a>
-             <a href=""><img src="" alt= "Google"></a>
+        <div class="whole" id="follow" >
+            <div class="container1" role="document" style="margin-top:1%;">
+              <h2 class="about-head" style="font-size: 25px">Follow Us</h2>
+
+             <a href="https://www.facebook.com/njack.iitp/"><i class="fa fa-facebook-official" style="font-size: 40px" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-twitter-square" style="font-size: 40px" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-google-plus-square" style="font-size: 40px; color: darkred  " aria-hidden="true"></i></a>
              </div>
             <!-- /.container -->
         </div>
